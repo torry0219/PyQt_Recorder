@@ -128,7 +128,7 @@ class Recorder_UI(QMainWindow):
             wf.setsampwidth(audio.get_sample_size(form))
             wf.setframerate(rate)
             wf.writeframes(self.audioData)
-        self.label.setText("儲存成功，臭ㄐㄐ")
+        self.label.setText("儲存成功")
     #清除
     def clear_data(self):
         self.audioData = None
